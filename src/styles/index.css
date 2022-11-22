@@ -8,10 +8,17 @@ h4 {
 }
 
 .home-header {
+  position: relative;
   padding: 200px 0;
   background-image: url(./../images/bg.jpg);
 }
 
+.home-header img{
+  position: absolute;
+  right: 0;
+  width: 100%;
+  margin-top: 50px;
+}
 .home-header-content {
   max-width: 600px;
   margin-top: -52px;
@@ -30,6 +37,13 @@ h4 {
 }
 .participants {
   padding: 50px 0;
+  position: relative;
+}
+
+.participants img{
+position: absolute;
+width: 100%;
+z-index: 1;
 }
 
 .participants-content {
@@ -38,3 +52,4 @@ h4 {
   display: flex;
   flex-wrap: wrap;
 }
+
