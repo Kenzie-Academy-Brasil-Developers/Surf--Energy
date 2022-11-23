@@ -13,12 +13,7 @@ h4 {
   background-image: url(./../images/bg.jpg);
 }
 
-.home-header img{
-  position: absolute;
-  right: 0;
-  width: 100%;
-  margin-top: 50px;
-}
+
 .home-header-content {
   max-width: 600px;
   margin-top: -52px;
@@ -53,3 +48,9 @@ z-index: 1;
   flex-wrap: wrap;
 }
 
+.participants .image1{
+  position: sticky;
+  width: 100%;
+  margin-top: -200px;
+  z-index: 1;
+}
